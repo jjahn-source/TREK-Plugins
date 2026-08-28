@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-28T09:43:45.162Z",
+  "generatedAt": "2026-08-28T14:02:32.881Z",
   "plugins": [
     {
       "id": "amap-search",
@@ -1078,6 +1078,19 @@
       "icon": "ListTodo",
       "versions": [
         {
+          "version": "1.0.1",
+          "gitTag": "v1.0.1",
+          "commitSha": "a732774152f1ae1bcf4a1c4902c4be41c1256b5a",
+          "downloadUrl": "https://github.com/mauriceboe/trek-plugin-trip-todos/releases/download/v1.0.1/plugin.zip",
+          "sha256": "270736c62b892756aec886a077609ceb80db59e29e729a0fd1b70e58735ecfce",
+          "trek": ">=3.3.0 <5.0.0",
+          "size": 20889,
+          "apiVersion": 1,
+          "nativeModules": false,
+          "publishedAt": "2026-08-28T14:00:34.285Z",
+          "signature": "hpoVf4N4MdXIrRHIRbzWhPb65lK9zoADKsAiEGcAtBQexL9c3n3KZuVhDxvROGzz/X3TllBVQCayz4asX2qbAw=="
+        },
+        {
           "version": "1.0.0",
           "gitTag": "v1.0.0",
           "commitSha": "d2864dded856ffc721ea95a3e42e02ef256ecf5e",
@@ -1094,10 +1107,10 @@
       ],
       "homepage": "https://github.com/mauriceboe/trek-plugin-trip-todos",
       "authorPublicKey": "4QeCOm8gMfcoZdjIznao2KV10NSS7u/0AYn+6FA6/Oo=",
-      "reviewedAt": "2026-07-18",
+      "reviewedAt": "2026-08-28",
       "boundOwner": "mauriceboe",
       "downloadCount": 596,
-      "screenshotUrl": "https://raw.githubusercontent.com/mauriceboe/trek-plugin-trip-todos/d2864dded856ffc721ea95a3e42e02ef256ecf5e/docs/screenshot.png"
+      "screenshotUrl": "https://raw.githubusercontent.com/mauriceboe/trek-plugin-trip-todos/a732774152f1ae1bcf4a1c4902c4be41c1256b5a/docs/screenshot.png"
     },
     {
       "id": "wiki-place-context",
