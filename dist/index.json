@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-30T09:19:06.270Z",
+  "generatedAt": "2026-08-30T17:00:05.859Z",
   "plugins": [
     {
       "id": "amap-search",
@@ -853,6 +853,19 @@
       "type": "page",
       "versions": [
         {
+          "version": "1.5.0",
+          "gitTag": "v1.5.0",
+          "commitSha": "9351d7027e150f09b5d002e8ed15df1d25150ba5",
+          "downloadUrl": "https://github.com/raduwolf12/trip-importer/releases/download/v1.5.0/plugin.zip",
+          "sha256": "8b766b2dcb6a4c277e66e069ab25a8a7beac2b20964d5700d1dd5bfc6ae24728",
+          "trek": ">=4.1.1 <5.0.0",
+          "size": 558292,
+          "apiVersion": 1,
+          "nativeModules": false,
+          "publishedAt": "2026-08-29T19:25:28.811Z",
+          "operatorEgress": true
+        },
+        {
           "version": "1.4.1",
           "gitTag": "v1.4.1",
           "commitSha": "d6f7bca3e0d9026f7eedbb409fb6e3343a433eaf",
@@ -952,10 +965,10 @@
         }
       ],
       "icon": "PackageOpen",
-      "reviewedAt": "2026-08-24",
+      "reviewedAt": "2026-08-30",
       "boundOwner": "raduwolf12",
       "downloadCount": 432,
-      "screenshotUrl": "https://raw.githubusercontent.com/raduwolf12/trip-importer/d6f7bca3e0d9026f7eedbb409fb6e3343a433eaf/docs/screenshot.png"
+      "screenshotUrl": "https://raw.githubusercontent.com/raduwolf12/trip-importer/9351d7027e150f09b5d002e8ed15df1d25150ba5/docs/screenshot.png"
     },
     {
       "id": "trip-research",
