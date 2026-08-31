@@ -100,6 +100,11 @@
       "boundOwner": "raduwolf12",
       "repo": "raduwolf12/transport-search",
       "firstReviewedAt": "2026-08-20"
+    },
+    "airbnb-mcp": {
+      "boundOwner": "jjahn-source",
+      "repo": "jjahn-source/trek-plugin-airbnb-mcp",
+      "firstReviewedAt": "2026-08-31"
     }
   }
 }
