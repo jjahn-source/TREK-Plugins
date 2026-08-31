@@ -7,16 +7,16 @@
   "type": "trip-page",
   "versions": [
     {
-      "version": "1.3.0",
-      "gitTag": "v1.3.0",
-      "commitSha": "5b54e932a872e4d82a49dce266916c3c2a5fdcba",
-      "downloadUrl": "https://github.com/jjahn-source/trek-plugin-airbnb-mcp/releases/download/v1.3.0/plugin.zip",
-      "sha256": "59883226820867ee532f0dff4706db5982eeefb951c13e2b404e5c05319eae5a",
+      "version": "1.4.0",
+      "gitTag": "v1.4.0",
+      "commitSha": "7e013385550170fa0ee0ca204873cfb84db74f19",
+      "downloadUrl": "https://github.com/jjahn-source/trek-plugin-airbnb-mcp/releases/download/v1.4.0/plugin.zip",
+      "sha256": "103640a6ac4177c935f03364537a7461aefd95a52dfb15fcac134fc659683d5f",
       "trek": ">=4.0.0 <5.0.0",
-      "size": 33256,
+      "size": 36250,
       "apiVersion": 1,
       "nativeModules": false,
-      "publishedAt": "2026-08-31T16:46:12.540Z"
+      "publishedAt": "2026-08-31T17:34:36.026Z"
     }
   ],
   "icon": "BedDouble",
