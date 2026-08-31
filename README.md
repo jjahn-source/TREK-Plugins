@@ -53,8 +53,8 @@ opening a pull request.
    and [`schema/plugin-entry.schema.json`](./schema/plugin-entry.schema.json) for
    the full schema.
 
-Full guides: [Plugin Development](https://github.com/mauriceboe/TREK/wiki/Plugin-Development)
-and [Publishing a Plugin](https://github.com/mauriceboe/TREK/wiki/Plugin-Publishing).
+Full guides: [Plugin Development](https://github.com/liketrek/TREK/wiki/Plugin-Development)
+and [Publishing a Plugin](https://github.com/liketrek/TREK/wiki/Plugin-Publishing).
 
 ## What CI checks (each is a hard gate)
 
@@ -181,10 +181,12 @@ whose target is *always* self-hosted, so there is no host to name. That is not a
 TREK blocks every outbound call until an admin adds a host.
 
 **README** (`scripts/check-readme.mjs`): a `README.md` exists · has the required
-sections (*What it does / Screenshots / Permissions / Setup*) · contains **at least
-one screenshot that actually resolves to an image** · has real written content
-(not just the template) · **no leftover `{{placeholder}}` tokens** · every declared
-permission is explained. A stub or image-less README is rejected.
+sections (*What it does / Screenshots / Permissions / Setup*) · **`docs/screenshot.png`
+resolves to a real image at the pinned commit** (that exact path is what the store
+card loads — a README that only links other image names still fails; `npx
+trek-plugin-sdk shot` writes it) · has real written content (not just the template)
+· **no leftover `{{placeholder}}` tokens** · every declared permission is explained.
+A stub or screenshot-less README is rejected.
 
 `npx trek-plugin-sdk preflight --repo you/repo --tag vX` runs both gates locally,
 over the network, so you can see a green result before you open the PR.
