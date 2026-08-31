@@ -1,5 +1,5 @@
 // GENERATED — do not edit by hand.
-// Source: shared/src/plugin-permissions.ts (PLUGIN_PERMISSIONS, 63 ids) in
+// Source: shared/src/plugin-permissions.ts (PLUGIN_PERMISSIONS, 64 ids) in
 // https://github.com/liketrek/TREK — the flat permission id list a plugin
 // manifest's `permissions[]` is checked against at install time.
 // Regenerate: node scripts/gen-known-permissions.mjs
@@ -75,6 +75,7 @@ export const KNOWN_PERMISSIONS = new Set([
   'ai:invoke',
   'oauth:client',
   'geolocation:read',
+  'mcp:tools',
 ]);
 
 export const HTTP_OUTBOUND_PREFIX = 'http:outbound:';
