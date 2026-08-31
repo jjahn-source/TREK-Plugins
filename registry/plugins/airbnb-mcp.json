@@ -1,11 +1,24 @@
 {
   "id": "airbnb-mcp",
-  "name": "Airbnb via OpenBnB",
+  "name": "Airbnb Stays",
   "author": "John Jahn",
-  "description": "Search Airbnb stays for your trip dates and add them to the trip. Each traveller signs in to their own free OpenBnB account - no scraping, no shared credentials.",
+  "description": "Find somewhere to stay without leaving your trip — search Airbnb for your dates, compare prices and ratings, and add the winner to the plan in one tap.",
   "repo": "jjahn-source/trek-plugin-airbnb-mcp",
   "type": "trip-page",
   "versions": [
+    {
+      "version": "1.6.0",
+      "gitTag": "v1.6.0",
+      "commitSha": "37810e66dd6ec48d81a8cb2d4b06c18eaad49fd2",
+      "downloadUrl": "https://github.com/jjahn-source/trek-plugin-airbnb-mcp/releases/download/v1.6.0/plugin.zip",
+      "sha256": "b66034d9475e878928030a8a2d2638022e3231aa0a3f18f657af35c85c80f0de",
+      "trek": ">=4.0.0 <5.0.0",
+      "size": 54210,
+      "apiVersion": 1,
+      "nativeModules": false,
+      "publishedAt": "2026-08-31T21:37:54.393Z",
+      "operatorEgress": true
+    },
     {
       "version": "1.4.2",
       "gitTag": "v1.4.2",
