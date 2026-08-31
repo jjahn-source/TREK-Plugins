@@ -7,8 +7,11 @@
 
   Rules the CI enforces (see scripts/check-readme.mjs in the registry repo):
     1. All headings marked (required) below must remain present.
-    2. At least ONE screenshot image that actually resolves (200 + image type).
-    3. No leftover template placeholders (the {{...}} tokens, or "TODO"/"REPLACE_ME").
+    2. docs/screenshot.png must exist at the released commit and resolve as a
+       real image (200 + image content-type) — that exact path is the store
+       card; `npx trek-plugin-sdk shot` writes it.
+    3. No leftover template placeholders (the {{...}} tokens, "REPLACE_ME",
+       or unedited template prose that still begins with the word Describe).
     4. Every permission your trek-plugin.json declares must be explained in
        the "## Permissions" section.
     5. At least ~400 characters of real prose (comments/code/images don't count).
