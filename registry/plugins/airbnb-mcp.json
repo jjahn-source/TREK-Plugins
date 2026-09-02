@@ -7,6 +7,19 @@
   "type": "trip-page",
   "versions": [
     {
+      "version": "2.0.0",
+      "gitTag": "v2.0.0",
+      "commitSha": "f696b1c2747e45ee2226107b1e3429b1dd1e94ee",
+      "downloadUrl": "https://github.com/jjahn-source/trek-plugin-airbnb-mcp/releases/download/v2.0.0/plugin.zip",
+      "sha256": "81b348132d72d3c4252e9721d1d7f9f52b2ff3b5b39e62e1cffa0c049ad0c128",
+      "trek": ">=4.0.0 <5.0.0",
+      "size": 81275,
+      "apiVersion": 1,
+      "nativeModules": false,
+      "publishedAt": "2026-09-02T17:13:25.735Z",
+      "operatorEgress": true
+    },
+    {
       "version": "1.6.1",
       "gitTag": "v1.6.1",
       "commitSha": "fcfee7ef82ce48954bb97aa8f520c96b80043207",
