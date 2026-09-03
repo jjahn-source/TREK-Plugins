@@ -1,15 +1,41 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-03T08:07:46.087Z",
+  "generatedAt": "2026-09-03T16:00:38.788Z",
   "plugins": [
     {
       "id": "airbnb-mcp",
-      "name": "Airbnb via OpenBnB",
+      "name": "Airbnb Stays",
       "author": "John Jahn",
-      "description": "Search Airbnb stays for your trip dates and add them to the trip. Each traveller signs in to their own free OpenBnB account - no scraping, no shared credentials.",
+      "description": "Find somewhere to stay without leaving your trip — search Airbnb for your dates, compare prices and ratings, and add the winner to the plan in one tap.",
       "repo": "jjahn-source/trek-plugin-airbnb-mcp",
       "type": "trip-page",
       "versions": [
+        {
+          "version": "2.0.0",
+          "gitTag": "v2.0.0",
+          "commitSha": "f696b1c2747e45ee2226107b1e3429b1dd1e94ee",
+          "downloadUrl": "https://github.com/jjahn-source/trek-plugin-airbnb-mcp/releases/download/v2.0.0/plugin.zip",
+          "sha256": "81b348132d72d3c4252e9721d1d7f9f52b2ff3b5b39e62e1cffa0c049ad0c128",
+          "trek": ">=4.0.0 <5.0.0",
+          "size": 81275,
+          "apiVersion": 1,
+          "nativeModules": false,
+          "publishedAt": "2026-09-02T17:13:25.735Z",
+          "operatorEgress": true
+        },
+        {
+          "version": "1.6.1",
+          "gitTag": "v1.6.1",
+          "commitSha": "fcfee7ef82ce48954bb97aa8f520c96b80043207",
+          "downloadUrl": "https://github.com/jjahn-source/trek-plugin-airbnb-mcp/releases/download/v1.6.1/plugin.zip",
+          "sha256": "dd0cd5525ba0959e416880e69b795c3b938b44a9566fb668f3071e69282bc0f3",
+          "trek": ">=4.0.0 <5.0.0",
+          "size": 55762,
+          "apiVersion": 1,
+          "nativeModules": false,
+          "publishedAt": "2026-08-31T21:56:52.410Z",
+          "operatorEgress": true
+        },
         {
           "version": "1.4.2",
           "gitTag": "v1.4.2",
@@ -25,10 +51,10 @@
       ],
       "icon": "BedDouble",
       "homepage": "https://github.com/jjahn-source/trek-plugin-airbnb-mcp",
-      "reviewedAt": "2026-08-31",
+      "reviewedAt": "2026-09-03",
       "boundOwner": "jjahn-source",
       "downloadCount": 63,
-      "screenshotUrl": "https://raw.githubusercontent.com/jjahn-source/trek-plugin-airbnb-mcp/26abf553c42424f0cb2ca0ed97e067c4b7a9b441/docs/screenshot.png"
+      "screenshotUrl": "https://raw.githubusercontent.com/jjahn-source/trek-plugin-airbnb-mcp/f696b1c2747e45ee2226107b1e3429b1dd1e94ee/docs/screenshot.png"
     },
     {
       "id": "amap-search",
