@@ -22,5 +22,7 @@
   ],
   "icon": "Sunrise",
   "homepage": "https://github.com/jubnl/trek-plugin-sundial",
-  "authorPublicKey": "YgFVo9ES55xz9m0/0Thh5sgx/IlVaaU2r0hScEawgiA="
+  "authorPublicKey": "YgFVo9ES55xz9m0/0Thh5sgx/IlVaaU2r0hScEawgiA=",
+  "reviewedAt": "2026-09-03",
+  "boundOwner": "jubnl"
 }

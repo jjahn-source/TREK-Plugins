@@ -105,6 +105,11 @@
       "boundOwner": "jjahn-source",
       "repo": "jjahn-source/trek-plugin-airbnb-mcp",
       "firstReviewedAt": "2026-08-31"
+    },
+    "sundial": {
+      "boundOwner": "jubnl",
+      "repo": "jubnl/trek-plugin-sundial",
+      "firstReviewedAt": "2026-09-03"
     }
   }
 }

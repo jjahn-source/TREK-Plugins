@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-03T16:00:38.788Z",
+  "generatedAt": "2026-09-03T16:39:37.038Z",
   "plugins": [
     {
       "id": "airbnb-mcp",
@@ -576,6 +576,35 @@
       "boundOwner": "fbnlrz",
       "downloadCount": 158,
       "screenshotUrl": "https://raw.githubusercontent.com/fbnlrz/suica-saver/7127e0706fe8c2bc901792899b06956f89eb35e9/docs/screenshot.png"
+    },
+    {
+      "id": "sundial",
+      "name": "Sundial",
+      "author": "jubnl",
+      "description": "Sunrise, sunset, golden hour and blue hour for every day of your trip, computed from where you will actually be.",
+      "repo": "jubnl/trek-plugin-sundial",
+      "type": "trip-page",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "gitTag": "v1.0.0",
+          "commitSha": "08aa4429ee8cb48ca400588ce3a590806f93211b",
+          "downloadUrl": "https://github.com/jubnl/trek-plugin-sundial/releases/download/v1.0.0/plugin.zip",
+          "sha256": "394a58d0510a74043587b63ac0311aa87ac821d1b1d0860e1a2f8e13dec9d4e9",
+          "trek": ">=4.0.0 <5.0.0",
+          "size": 38027,
+          "apiVersion": 1,
+          "nativeModules": false,
+          "publishedAt": "2026-09-03T16:32:39.553Z",
+          "signature": "XX2QeN4KYlFjd3xH50tR78j3ywIRhbQG7+4Fr2yyvMibgdAQyPXpr9sB/MynWa9wO8dtxHIPv5ObdhbYy1pMAg=="
+        }
+      ],
+      "icon": "Sunrise",
+      "homepage": "https://github.com/jubnl/trek-plugin-sundial",
+      "authorPublicKey": "YgFVo9ES55xz9m0/0Thh5sgx/IlVaaU2r0hScEawgiA=",
+      "reviewedAt": "2026-09-03",
+      "boundOwner": "jubnl",
+      "screenshotUrl": "https://raw.githubusercontent.com/jubnl/trek-plugin-sundial/08aa4429ee8cb48ca400588ce3a590806f93211b/docs/screenshot.png"
     },
     {
       "id": "transport-search",
